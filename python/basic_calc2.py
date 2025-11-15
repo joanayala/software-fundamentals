@@ -10,8 +10,18 @@ import os
 
 os.system('clear')
 #1. Initialize vars and/or constants (Inputs)
-num1 = 10
-num2 = 5
+
+#Escribir "Enter number 1: " //Show message from pc to user
+#Leer num1 //User enter a number and program reads it
+#print("Please, enter number 1: ")
+num1 = float(input("Please, enter number 1: "))
+#print(type(num1))
+
+#Escribir "Enter number 2: " //Show message from pc to user
+#Leer num2 //User enter a number and program reads it
+#print("Please, enter number 2: ")
+num2 = float(input("Please, enter number 2: "))
+#print(type(num2))
 	
 #2. Processes
 add = num1 + num2
